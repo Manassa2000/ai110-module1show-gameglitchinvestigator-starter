@@ -8,6 +8,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+- hints are wrong
+- secret keeps changing when new game button is clicked but not the history 
+- doesn't understand how the score is calculated
+- difficulty logic isnt correct
+- attempts counter didnt count the first one
+- can input numbers that aren't in the range
 ---
 
 ## 2. How did you use AI as a teammate?
