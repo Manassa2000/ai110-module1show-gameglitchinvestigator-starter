@@ -33,6 +33,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
+![alt text](<Screenshot 2026-03-15 at 7.43.03 PM.png>)
+
 ## 🚀 Stretch Features
+- [ ]  Advanced edge case testing: 
 
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]

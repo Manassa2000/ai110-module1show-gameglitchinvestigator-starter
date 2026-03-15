@@ -3,13 +3,13 @@ def get_range_for_difficulty(difficulty: str):
     if difficulty == "Easy":
         return 1, 20
     if difficulty == "Normal":
-        return 1, 100
-    if difficulty == "Hard":
         return 1, 50
-    return 1, 100
+    if difficulty == "Hard":
+        return 1, 100
+    return 1, 50
 
 
-def parse_guess(raw: str):
+def parse_guess(raw: str, low: int, high: int):
     """
     Parse user input into an int guess.
 
@@ -28,6 +28,9 @@ def parse_guess(raw: str):
             value = int(raw)
     except Exception:
         return False, None, "That is not a number."
+
+    if value < low or value > high:
+        return False, None, f"Please enter a number between {low} and {high}."
 
     return True, value, None
 
