@@ -26,16 +26,22 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+ The purpose of the game is to guess the secret number with the help of hints available after each attempts. It provides three levels with different number of attempts and ranges. 
 - [ ] Detail which bugs you found.
+I found that the hints were wrong, The secret number alone got updated upon clicking new game and not the attempts, The difficulty levels were reasoned wrongly and the player has the opportunity to input numbers that were not in the range. 
 - [ ] Explain what fixes you applied.
+I moved the core logic to logic_utils, fixed the difficulty ranges, attempt limits, wrong hints problem, out of range inputs and hard coded range in UI. Fixed all these.
 
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
 
-![alt text](<Screenshot 2026-03-15 at 7.43.03 PM.png>)
+![alt text](<Screenshot 2026-03-15 at 7.50.44 PM.png>)
 
 ## 🚀 Stretch Features
 - [ ]  Advanced edge case testing: 
 
+![alt text](<Screenshot 2026-03-15 at 7.43.03 PM.png>)
+
 - [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+
